@@ -15,7 +15,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 from huggingface_hub import login
 
 # 🔐 Hugging Face API-nyckel
-login(token=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")
+login(token="")
 
 # 🚀 FastAPI
 app = FastAPI()
